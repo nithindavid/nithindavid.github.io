@@ -2,6 +2,23 @@ $font-Main:   'Raleway', Arial, sans-serif;
 $white: #FFFFFF;
 $light: #efefef;
 
+.header a {
+  font-weight: bold;
+  text-decoration: none;
+  height: 550px;
+  background: url(../images/me.jpg) center center;
+  background-size: cover;
+  	.title {
+  		display: inline-block;
+  		margin-bottom: 2em;
+  		a {
+		  color: $white;
+		  	&:hover {
+		        color:$light;
+		    }
+		}
+	}
+}
 .site {
 	text-align: justify;
 	width: 60%;
@@ -13,22 +30,6 @@ $light: #efefef;
 	font-family: $font-Main;
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
-
-  	.header a {
-	  font-weight: bold;
-	  text-decoration: none;
-	  	.title {
-	  		display: inline-block;
-	  		margin-bottom: 2em;
-	  		a {
-			  color: $white;
-			  	&:hover {
-			        color:$light;
-			    }
-			}
-		}
-	}
-
 	
 	.single-post{
 		padding: 7%;
@@ -38,7 +39,6 @@ $light: #efefef;
 
 		h2{
 			font-weight: 700;
-	  		text-align: center;
 	  		color: #555;
 	  		font-size: 45px;
 	  		a{

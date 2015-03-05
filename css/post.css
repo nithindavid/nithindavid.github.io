@@ -1,4 +1,26 @@
 /* line 5, ../sass/post.scss */
+.header a {
+  font-weight: bold;
+  text-decoration: none;
+  height: 550px;
+  background: url(../images/me.jpg) center center;
+  background-size: cover;
+}
+/* line 11, ../sass/post.scss */
+.header a .title {
+  display: inline-block;
+  margin-bottom: 2em;
+}
+/* line 14, ../sass/post.scss */
+.header a .title a {
+  color: white;
+}
+/* line 16, ../sass/post.scss */
+.header a .title a:hover {
+  color: #efefef;
+}
+
+/* line 22, ../sass/post.scss */
 .site {
   text-align: justify;
   width: 60%;
@@ -11,35 +33,16 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
 }
-/* line 17, ../sass/post.scss */
-.site .header a {
-  font-weight: bold;
-  text-decoration: none;
-}
-/* line 20, ../sass/post.scss */
-.site .header a .title {
-  display: inline-block;
-  margin-bottom: 2em;
-}
-/* line 23, ../sass/post.scss */
-.site .header a .title a {
-  color: white;
-}
-/* line 25, ../sass/post.scss */
-.site .header a .title a:hover {
-  color: #efefef;
-}
-/* line 33, ../sass/post.scss */
+/* line 34, ../sass/post.scss */
 .site .single-post {
   padding: 7%;
   margin: 5% 0;
   border: 1px solid #eaeaea;
   background: #fff;
 }
-/* line 39, ../sass/post.scss */
+/* line 40, ../sass/post.scss */
 .site .single-post h2 {
   font-weight: 700;
-  text-align: center;
   color: #555;
   font-size: 45px;
 }
