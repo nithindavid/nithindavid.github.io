@@ -19,8 +19,9 @@
   font-size: 40px;
   text-align: left;
   margin: 0;
+  color: white;
 }
-/* line 24, ../sass/post.scss */
+/* line 25, ../sass/post.scss */
 .header .title {
   display: block;
   width: 100%;
@@ -28,18 +29,18 @@
   font-size: 90px;
   text-align: left;
 }
-/* line 32, ../sass/post.scss */
+/* line 33, ../sass/post.scss */
 .header .title a {
   color: white;
   font-weight: bold;
   text-decoration: none;
   text-align: left;
 }
-/* line 37, ../sass/post.scss */
+/* line 38, ../sass/post.scss */
 .header .title a:hover {
   color: #efefef;
 }
-/* line 43, ../sass/post.scss */
+/* line 44, ../sass/post.scss */
 .header .tag {
   display: block;
   width: 100%;
@@ -50,7 +51,7 @@
   color: white;
 }
 
-/* line 54, ../sass/post.scss */
+/* line 55, ../sass/post.scss */
 .site {
   text-align: justify;
   width: 60%;
@@ -63,20 +64,20 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
 }
-/* line 66, ../sass/post.scss */
+/* line 67, ../sass/post.scss */
 .site .single-post {
   padding: 7%;
   margin: 5% 0;
   border: 1px solid #eaeaea;
   background: #fff;
 }
-/* line 72, ../sass/post.scss */
+/* line 73, ../sass/post.scss */
 .site .single-post h2 {
   font-weight: 700;
   color: #555;
   font-size: 45px;
 }
-/* line 76, ../sass/post.scss */
+/* line 77, ../sass/post.scss */
 .site .single-post h2 a {
   color: #555;
   text-decoration: none;
