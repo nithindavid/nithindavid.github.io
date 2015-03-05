@@ -1,2 +1,6 @@
 2015-03-06 00:45:35    create css/grid.css 
 2015-03-06 00:45:35    create css/text.css 
+2015-03-06 00:50:18    create css/post.css 
+2015-03-06 00:50:43 overwrite css/post.css 
+2015-03-06 00:53:05 overwrite css/post.css 
+2015-03-06 00:53:51 overwrite css/post.css 

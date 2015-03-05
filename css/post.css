@@ -1,0 +1,12 @@
+/* line 2, ../sass/post.scss */
+.single-post h2 {
+  font-weight: 700;
+  text-align: center;
+  color: #555;
+  font-size: 45px;
+}
+/* line 7, ../sass/post.scss */
+.single-post h2 a {
+  color: #555;
+  text-decoration: none;
+}
