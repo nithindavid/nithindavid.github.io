@@ -1,12 +1,54 @@
-.single-post{
-	h2{
-		font-weight: 700;
-  		text-align: center;
-  		color: #555;
-  		font-size: 45px;
-  		a{
-  			color: #555;
-  			text-decoration: none;
-  		}
+$font-Main:   'Raleway', Arial, sans-serif;
+$white: #FFFFFF;
+$light: #efefef;
+
+.site {
+	text-align: justify;
+	width: 60%;
+	color: #69606b;
+	margin: 0 auto;
+
+	background: $white;
+	font-weight: 300;
+	font-size: 22px;
+	line-height: 1.5;
+	font-family: $font-Main;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+
+  	.header a {
+	  font-weight: bold;
+	  text-decoration: none;
+	  	.title {
+	  		display: inline-block;
+	  		margin-bottom: 2em;
+	  		a {
+			  color: $white;
+			  	&:hover {
+			        color:$light;
+			    }
+			}
+		}
 	}
+
+	
+	.single-post{
+		padding: 7%;
+		margin: 5% 0;
+	  	border: 1px solid #eaeaea;
+	  	background: #fff;
+
+		h2{
+			font-weight: 700;
+	  		text-align: center;
+	  		color: #555;
+	  		font-size: 45px;
+	  		a{
+	  			color: #555;
+	  			text-decoration: none;
+	  		}
+		}
+	}
+
 }
+

@@ -1,12 +1,51 @@
-/* line 2, ../sass/post.scss */
-.single-post h2 {
+/* line 5, ../sass/post.scss */
+.site {
+  text-align: justify;
+  width: 60%;
+  color: #69606b;
+  margin: 0 auto;
+  background: white;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 1.5;
+  font-family: "Raleway", Arial, sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+/* line 19, ../sass/post.scss */
+.site .header a {
+  font-weight: bold;
+  text-decoration: none;
+}
+/* line 22, ../sass/post.scss */
+.site .header a .title {
+  display: inline-block;
+  margin-bottom: 2em;
+}
+/* line 25, ../sass/post.scss */
+.site .header a .title a {
+  color: white;
+}
+/* line 27, ../sass/post.scss */
+.site .header a .title a:hover {
+  color: #efefef;
+}
+/* line 35, ../sass/post.scss */
+.site .single-post {
+  padding: 7%;
+  margin: 5% 0;
+  border: 1px solid #eaeaea;
+  background: #fff;
+}
+/* line 41, ../sass/post.scss */
+.site .single-post h2 {
   font-weight: 700;
   text-align: center;
   color: #555;
   font-size: 45px;
 }
-/* line 7, ../sass/post.scss */
-.single-post h2 a {
+/* line 46, ../sass/post.scss */
+.site .single-post h2 a {
   color: #555;
   text-decoration: none;
 }
