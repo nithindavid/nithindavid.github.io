@@ -66,11 +66,11 @@
   -webkit-font-smoothing: antialiased;
 }
 /* line 66, ../sass/post.scss */
-.site .home {
+.site #home {
   text-align: center;
 }
 /* line 68, ../sass/post.scss */
-.site .home .blog-title {
+.site #home .blog-title {
   text-align: center;
   padding: 2% 4%;
   display: inline-block;
@@ -80,20 +80,20 @@
   border: 5px solid;
 }
 /* line 77, ../sass/post.scss */
-.site .home .single-post {
+.site #home .single-post {
   padding: 7%;
   margin: 5% 0;
   border: 1px solid #eaeaea;
   background: #fff;
 }
 /* line 83, ../sass/post.scss */
-.site .home .single-post h2 {
+.site #home .single-post h2 {
   font-weight: 700;
   color: #555;
   font-size: 45px;
 }
 /* line 87, ../sass/post.scss */
-.site .home .single-post h2 a {
+.site #home .single-post h2 a {
   color: #555;
   text-decoration: none;
 }
