@@ -63,21 +63,32 @@ $light: #efefef;
 	font-family: $font-Main;
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
-	
-	.single-post{
-		padding: 7%;
-		margin: 5% 0;
-	  	border: 1px solid #eaeaea;
-	  	background: #fff;
+	.home{
+		text-align: center;
+		.blog-title{
+			text-align: center;
+			padding: 2% 4%;
+			display: inline-block;
+			margin: 10% AUTO 0;
+			font-size: 50px;
+			font-weight: 400;
+			border: 5px solid;
+		}
+		.single-post{
+			padding: 7%;
+			margin: 5% 0;
+		  	border: 1px solid #eaeaea;
+		  	background: #fff;
 
-		h2{
-			font-weight: 700;
-	  		color: #555;
-	  		font-size: 45px;
-	  		a{
-	  			color: #555;
-	  			text-decoration: none;
-	  		}
+			h2{
+				font-weight: 700;
+		  		color: #555;
+		  		font-size: 45px;
+		  		a{
+		  			color: #555;
+		  			text-decoration: none;
+		  		}
+			}
 		}
 	}
 
