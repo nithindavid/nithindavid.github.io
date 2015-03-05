@@ -1,26 +1,28 @@
 /* line 5, ../sass/post.scss */
-.header a {
-  font-weight: bold;
-  text-decoration: none;
+.header {
   height: 550px;
+  width: 100%;
   background: url(../images/me.jpg) center center;
   background-size: cover;
 }
 /* line 11, ../sass/post.scss */
-.header a .title {
+.header .title {
   display: inline-block;
   margin-bottom: 2em;
 }
 /* line 14, ../sass/post.scss */
-.header a .title a {
+.header .title a {
   color: white;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
 }
-/* line 16, ../sass/post.scss */
-.header a .title a:hover {
+/* line 19, ../sass/post.scss */
+.header .title a:hover {
   color: #efefef;
 }
 
-/* line 22, ../sass/post.scss */
+/* line 26, ../sass/post.scss */
 .site {
   text-align: justify;
   width: 60%;
@@ -33,20 +35,20 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
 }
-/* line 34, ../sass/post.scss */
+/* line 38, ../sass/post.scss */
 .site .single-post {
   padding: 7%;
   margin: 5% 0;
   border: 1px solid #eaeaea;
   background: #fff;
 }
-/* line 40, ../sass/post.scss */
+/* line 44, ../sass/post.scss */
 .site .single-post h2 {
   font-weight: 700;
   color: #555;
   font-size: 45px;
 }
-/* line 44, ../sass/post.scss */
+/* line 48, ../sass/post.scss */
 .site .single-post h2 a {
   color: #555;
   text-decoration: none;
