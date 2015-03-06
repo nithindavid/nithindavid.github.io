@@ -76,8 +76,7 @@ $light: #efefef;
 			border: 5px solid;
 		}
 		.single-post{
-			padding: 2% 4%;
-			margin: 2% 0;
+			padding: 4%;
 		  	border-bottom: 1px solid #eaeaea;
 		  	
 
@@ -93,7 +92,9 @@ $light: #efefef;
 			span {
 				color: #aaa;
 				font-family: Monaco, "Courier New", monospace;
-				font-size: 60%;
+				font-size: 14px;
+			  	display: block;
+			  	line-height: 30px;
 			}
 			p{
 				margin: 0;

@@ -78,28 +78,29 @@
 }
 /* line 78, ../sass/post.scss */
 .site #home .single-post {
-  padding: 2% 4%;
-  margin: 2% 0;
+  padding: 4%;
   border-bottom: 1px solid #eaeaea;
 }
-/* line 84, ../sass/post.scss */
+/* line 83, ../sass/post.scss */
 .site #home .single-post h2 {
   font-weight: 700;
   color: #555;
   font-size: 35px;
 }
-/* line 88, ../sass/post.scss */
+/* line 87, ../sass/post.scss */
 .site #home .single-post h2 a {
   color: #555;
   text-decoration: none;
 }
-/* line 93, ../sass/post.scss */
+/* line 92, ../sass/post.scss */
 .site #home .single-post span {
   color: #aaa;
   font-family: Monaco, "Courier New", monospace;
-  font-size: 60%;
+  font-size: 14px;
+  display: block;
+  line-height: 30px;
 }
-/* line 98, ../sass/post.scss */
+/* line 99, ../sass/post.scss */
 .site #home .single-post p {
   margin: 0;
 }
