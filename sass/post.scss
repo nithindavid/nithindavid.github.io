@@ -54,7 +54,8 @@ $light: #efefef;
 }
 .site {
 	text-align: justify;
-	width: 60%;
+	width: 100%;
+	max-width: 700px
 	color: #69606b;
 	margin: 0 auto;
 	font-weight: 300;
@@ -64,7 +65,7 @@ $light: #efefef;
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
 	#home{
-		text-align: center;
+
 		.blog-title{
 			text-align: center;
 			padding: 2% 4%;
@@ -75,15 +76,15 @@ $light: #efefef;
 			border: 5px solid;
 		}
 		.single-post{
-			padding: 7%;
-			margin: 5% 0;
-		  	border: 1px solid #eaeaea;
-		  	background: #fff;
+			padding: 2% 4%;
+			margin: 1% 0;
+		  	/*border: 1px solid #eaeaea;
+		  	background: #fff;*/
 
 			h2{
 				font-weight: 700;
 		  		color: #555;
-		  		font-size: 45px;
+		  		font-size: 25px;
 		  		a{
 		  			color: #555;
 		  			text-decoration: none;

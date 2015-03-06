@@ -1,99 +1,67 @@
-/* line 5, ../sass/post.scss */
-.header {
-  height: 550px;
-  width: 100%;
-  background: url(../images/me.jpg) center center;
-  background-size: cover;
-}
-/* line 11, ../sass/post.scss */
-.header .overlay {
-  background: rgba(0, 0, 0, 0.25);
-  width: 100%;
-  height: 100%;
-}
-/* line 16, ../sass/post.scss */
-.header .welcome {
-  display: block;
-  width: 100%;
-  padding: 150px 5% 0px;
-  font-size: 40px;
-  text-align: left;
-  margin: 0;
-  color: white;
-}
-/* line 25, ../sass/post.scss */
-.header .title {
-  display: block;
-  width: 100%;
-  margin: 0;
-  padding: 0px 5% 0px;
-  font-size: 90px;
-  text-align: left;
-}
-/* line 33, ../sass/post.scss */
-.header .title a {
-  color: white;
-  font-weight: bold;
-  text-decoration: none;
-  text-align: left;
-}
-/* line 38, ../sass/post.scss */
-.header .title a:hover {
-  color: #efefef;
-}
-/* line 44, ../sass/post.scss */
-.header .tag {
-  display: block;
-  width: 100%;
-  padding: 0px 5%;
-  font-size: 30px;
-  text-align: left;
-  margin: 0;
-  color: white;
-}
+/*
+Syntax error: Invalid CSS after "	color": expected ";", was ": #69606b;"
+        on line 59 of /Users/nithin/webofnithin.github.io/sass/post.scss
 
-/* line 55, ../sass/post.scss */
-.site {
-  text-align: justify;
-  width: 60%;
-  color: #69606b;
-  margin: 0 auto;
-  font-weight: 300;
-  font-size: 22px;
-  line-height: 1.5;
-  font-family: "Raleway", Arial, sans-serif;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-}
-/* line 66, ../sass/post.scss */
-.site #home {
-  text-align: center;
-}
-/* line 68, ../sass/post.scss */
-.site #home .blog-title {
-  text-align: center;
-  padding: 2% 4%;
-  display: inline-block;
-  margin: 10% AUTO 0;
-  font-size: 50px;
-  font-weight: 400;
-  border: 5px solid;
-}
-/* line 77, ../sass/post.scss */
-.site #home .single-post {
-  padding: 7%;
-  margin: 5% 0;
-  border: 1px solid #eaeaea;
-  background: #fff;
-}
-/* line 83, ../sass/post.scss */
-.site #home .single-post h2 {
-  font-weight: 700;
-  color: #555;
-  font-size: 45px;
-}
-/* line 87, ../sass/post.scss */
-.site #home .single-post h2 a {
-  color: #555;
-  text-decoration: none;
-}
+Backtrace:
+/Users/nithin/webofnithin.github.io/sass/post.scss:59
+/Applications/compass.app/Contents/Resources/lib/ruby/compass_common/sass-3.2.10/lib/sass/scss/parser.rb:1146:in `expected'
+/Applications/compass.app/Contents/Resources/lib/ruby/compass_common/sass-3.2.10/lib/sass/scss/parser.rb:1083:in `expected'
+/Applications/compass.app/Contents/Resources/lib/ruby/compass_common/sass-3.2.10/lib/sass/scss/parser.rb:1078:in `tok!'
+/Applications/compass.app/Contents/Resources/lib/ruby/compass_common/sass-3.2.10/lib/sass/scss/parser.rb:585:in `declaration_or_ruleset'
+org/jruby/RubyProc.java:270:in `call'
+org/jruby/RubyProc.java:220:in `call'
+/Applications/compass.app/Contents/Resources/lib/ruby/compass_common/sass-3.2.10/lib/sass/scss/parser.rb:1121:in `rethrow'
+/Applications/compass.app/Contents/Resources/lib/ruby/compass_common/sass-3.2.10/lib/sass/scss/parser.rb:591:in `declaration_or_ruleset'
+/Applications/compass.app/Contents/Resources/lib/ruby/compass_common/sass-3.2.10/lib/sass/scss/parser.rb:553:in `block_child'
+/Applications/compass.app/Contents/Resources/lib/ruby/compass_common/sass-3.2.10/lib/sass/scss/parser.rb:545:in `block_contents'
+/Applications/compass.app/Contents/Resources/lib/ruby/compass_common/sass-3.2.10/lib/sass/scss/parser.rb:534:in `block'
+/Applications/compass.app/Contents/Resources/lib/ruby/compass_common/sass-3.2.10/lib/sass/scss/parser.rb:528:in `ruleset'
+/Applications/compass.app/Contents/Resources/lib/ruby/compass_common/sass-3.2.10/lib/sass/scss/parser.rb:552:in `block_child'
+/Applications/compass.app/Contents/Resources/lib/ruby/compass_common/sass-3.2.10/lib/sass/scss/parser.rb:545:in `block_contents'
+/Applications/compass.app/Contents/Resources/lib/ruby/compass_common/sass-3.2.10/lib/sass/scss/parser.rb:82:in `stylesheet'
+/Applications/compass.app/Contents/Resources/lib/ruby/compass_common/sass-3.2.10/lib/sass/scss/parser.rb:27:in `parse'
+/Applications/compass.app/Contents/Resources/lib/ruby/compass_common/sass-3.2.10/lib/sass/engine.rb:342:in `_to_tree'
+/Applications/compass.app/Contents/Resources/lib/ruby/compass_common/sass-3.2.10/lib/sass/engine.rb:315:in `_render'
+/Applications/compass.app/Contents/Resources/lib/ruby/compass_common/sass-3.2.10/lib/sass/engine.rb:262:in `render'
+file:/Applications/compass.app/Contents/Resources/Java/compass-app.jar!/compass_patch.rb:60:in `compile'
+/Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
+file:/Applications/compass.app/Contents/Resources/Java/compass-app.jar!/compass_patch.rb:59:in `compile'
+/Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/lib/compass/logger.rb:45:in `red'
+file:/Applications/compass.app/Contents/Resources/Java/compass-app.jar!/compass_patch.rb:58:in `compile'
+/Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/lib/compass/compiler.rb:118:in `compile_if_required'
+/Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/lib/compass/compiler.rb:103:in `run'
+org/jruby/RubyArray.java:1620:in `each'
+/Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/lib/compass/compiler.rb:101:in `run'
+/Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
+/Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/lib/compass/compiler.rb:100:in `run'
+/Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/backport_from_0.13/lib/compass/watcher/compiler.rb:25:in `compile'
+org/jruby/RubyKernel.java:2105:in `send'
+(__FORWARDABLE__):3:in `compile'
+/Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/backport_from_0.13/lib/compass/watcher/project_watcher.rb:92:in `sass_modified'
+/Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/backport_from_0.13/lib/compass/watcher/project_watcher.rb:85:in `sass_callback'
+org/jruby/RubyMethod.java:133:in `call'
+org/jruby/RubyProc.java:270:in `call'
+org/jruby/RubyProc.java:220:in `call'
+/Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/backport_from_0.13/lib/compass/watcher/watch.rb:17:in `run_callback'
+file:/Applications/compass.app/Contents/Resources/Java/compass-app.jar!/app_watcher.rb:32:in `listen_callback'
+org/jruby/RubyArray.java:1620:in `each'
+file:/Applications/compass.app/Contents/Resources/Java/compass-app.jar!/app_watcher.rb:27:in `listen_callback'
+org/jruby/RubyArray.java:1620:in `each'
+file:/Applications/compass.app/Contents/Resources/Java/compass-app.jar!/app_watcher.rb:26:in `listen_callback'
+org/jruby/RubyMethod.java:133:in `call'
+org/jruby/RubyProc.java:270:in `call'
+org/jruby/RubyProc.java:220:in `call'
+/Applications/compass.app/Contents/Resources/lib/ruby/jruby/listen-0.7.3/lib/listen/listener.rb:212:in `on_change'
+/Applications/compass.app/Contents/Resources/lib/ruby/jruby/listen-0.7.3/lib/listen/listener.rb:221:in `initialize_adapter'
+org/jruby/RubyProc.java:270:in `call'
+org/jruby/RubyProc.java:220:in `call'
+/Applications/compass.app/Contents/Resources/lib/ruby/jruby/listen-0.7.3/lib/listen/adapter.rb:198:in `report_changes'
+/Applications/compass.app/Contents/Resources/lib/ruby/jruby/listen-0.7.3/lib/listen/adapter.rb:210:in `poll_changed_dirs'
+/Applications/compass.app/Contents/Resources/lib/ruby/jruby/listen-0.7.3/lib/listen/adapters/darwin.rb:38:in `start'
+org/jruby/RubyProc.java:270:in `call'
+org/jruby/RubyProc.java:224:in `call'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: Invalid CSS after \"	color\": expected \";\", was \": #69606b;\"\A         on line 59 of /Users/nithin/webofnithin.github.io/sass/post.scss"; }
