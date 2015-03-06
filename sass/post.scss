@@ -11,6 +11,16 @@ $light: #efefef;
     transition: $transition-property $transition-time $method;
 }
 
+@-webkit-keyframes huerotator {
+  0% {
+    -webkit-filter: hue-rotate(0deg);
+  }
+
+  100% {
+    -webkit-filter: hue-rotate(360deg);
+  }
+}
+
 
 
 @-webkit-keyframes psychoColor {
@@ -39,11 +49,17 @@ $light: #efefef;
 		width: 100%;
 		height:100%;
 		background: #a6d900;
-		background: linear-gradient(305deg, #d64343, #2396ff, #f2e33d, #44cb4c, #9c34d1);
-		background-size: 1000% 1000%;
-		-webkit-animation: psychoColor 42s ease infinite;
-		-moz-animation: psychoColor 42s ease infinite;
-		animation: psychoColor 42s ease infinite;
+	  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #a6d900), color-stop(100%, #ff4454));
+	  background: -webkit-linear-gradient(top, #a6d900 0%, #ff4454 100%);
+	  background: -webkit-gradient(linear, top left, bottom left, from(#a6d900), to(#ff4454));
+	  background: linear-gradient(to bottom, #a6d900 0%, #ff4454 100%);
+	  opacity: 0.6;
+	  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a6d900', endColorstr='#ff4454', GradientType=0);
+	  -webkit-transition: opacity 1.5s;
+	  transition: opacity 1.5s;
+
+
+	  -webkit-animation: huerotator 3s infinite alternate;
 
 	}
 	.welcome{
