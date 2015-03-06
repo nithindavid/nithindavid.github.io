@@ -77,18 +77,26 @@ $light: #efefef;
 		}
 		.single-post{
 			padding: 2% 4%;
-			margin: 1% 0;
-		  	/*border: 1px solid #eaeaea;
-		  	background: #fff;*/
+			margin: 2% 0;
+		  	border-bottom: 1px solid #eaeaea;
+		  	
 
 			h2{
 				font-weight: 700;
 		  		color: #555;
-		  		font-size: 25px;
+		  		font-size: 35px;
 		  		a{
 		  			color: #555;
 		  			text-decoration: none;
 		  		}
+			}
+			span {
+				color: #aaa;
+				font-family: Monaco, "Courier New", monospace;
+				font-size: 70%;
+			}
+			.excerpt{
+				margin: 0;
 			}
 		}
 	}

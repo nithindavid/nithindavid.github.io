@@ -13,7 +13,7 @@ title: Nithin David Thomas
 
       	<span>{{ post.date | date_to_string }}</span>   
 
-      	<p>{{ post.excerpt | truncatewords:17 }}</p>
+      	<p class="excerpt"> {{ post.excerpt | truncatewords:15 }}</p>
 
       </article>
     {% endfor %}

@@ -79,18 +79,27 @@
 /* line 78, ../sass/post.scss */
 .site #home .single-post {
   padding: 2% 4%;
-  margin: 1% 0;
-  /*border: 1px solid #eaeaea;
-  background: #fff;*/
+  margin: 2% 0;
+  border-bottom: 1px solid #eaeaea;
 }
 /* line 84, ../sass/post.scss */
 .site #home .single-post h2 {
   font-weight: 700;
   color: #555;
-  font-size: 25px;
+  font-size: 35px;
 }
 /* line 88, ../sass/post.scss */
 .site #home .single-post h2 a {
   color: #555;
   text-decoration: none;
+}
+/* line 93, ../sass/post.scss */
+.site #home .single-post span {
+  color: #aaa;
+  font-family: Monaco, "Courier New", monospace;
+  font-size: 70%;
+}
+/* line 98, ../sass/post.scss */
+.site #home .single-post .excerpt {
+  margin: 0;
 }
