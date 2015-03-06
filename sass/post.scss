@@ -2,6 +2,15 @@ $font-Main:   'Raleway', Arial, sans-serif;
 $white: #FFFFFF;
 $light: #efefef;
 
+
+@mixin transition($transition-property, $transition-time, $method) {
+    -webkit-transition: $transition-property $transition-time $method;
+    -moz-transition: $transition-property $transition-time $method;
+    -ms-transition: $transition-property $transition-time $method;
+    -o-transition: $transition-property $transition-time $method;
+    transition: $transition-property $transition-time $method;
+}
+
 .header{
 	height: 550px;
 	width: 100%;
@@ -87,7 +96,12 @@ $light: #efefef;
 		  		a{
 		  			color: #555;
 		  			text-decoration: none;
+		  			@include transition(all, 0.5s, ease-in-out);
+		  			&:hover{
+		  				color: #00bb70;
+		  			}
 		  		}
+		  		
 			}
 			span {
 				color: #aaa;
