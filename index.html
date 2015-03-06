@@ -4,7 +4,7 @@ title: Your New Jekyll Site
 ---
 
 <div id="home">
-  <h3 class="blog-title">Blog Posts</h3>
+  <!-- <h3 class="blog-title">Blog Posts</h3> -->
   <section class="posts">
     {% for post in site.posts %}
       <article class="single-post">
@@ -13,7 +13,7 @@ title: Your New Jekyll Site
 
       	<span>{{ post.date | date_to_string }}</span>   
 
-      	<p>{{ post.excerpt }}</p>
+      	<p>{{ post.excerpt | truncatewords:10 }}</p>
 
       </article>
     {% endfor %}
