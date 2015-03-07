@@ -101,6 +101,29 @@ $light: #efefef;
 	}
 	
 }
+#aboutMe{
+	width: 100%;
+	max-width: 900px;
+	margin: 5% auto;
+
+	h3{
+		color: #4c4d57;
+		font-size: 100px;
+		letter-spacing: 2px;
+		font-weight: 900;
+		display: inline;
+		text-align: left;
+	}
+	hr{
+		width: 150px;
+	}
+	p{
+		font-size: 29px;
+		color: #4c4d57;
+		line-height: 60px;
+		text-align: left;
+	}
+}
 .site {
 	text-align: justify;
 	width: 100%;
