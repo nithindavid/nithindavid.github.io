@@ -140,13 +140,18 @@ $light: #efefef;
 	#home{
 
 		.blog-title{
-			text-align: center;
-			padding: 2% 4%;
-			display: inline-block;
-			margin: 10% AUTO 0;
-			font-size: 50px;
-			font-weight: 400;
-			border: 5px solid;
+			text-align: left;
+
+			color: #4c4d57;
+			font-size: 100px;
+			letter-spacing: 2px;
+			font-weight: 900;
+			display: inline;
+		}
+		.ubder_title{
+			width: 15%;
+	  		height: 18px;
+	  		background: #4c4d57;
 		}
 		.single-post{
 			padding: 7% 4%;
