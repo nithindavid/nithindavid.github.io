@@ -150,9 +150,10 @@
   font-size: 29px;
   color: #4c4d57;
   line-height: 60px;
+  font-family: "Raleway", Arial, sans-serif;
 }
 
-/* line 127, ../sass/post.scss */
+/* line 128, ../sass/post.scss */
 .site {
   text-align: justify;
   width: 100%;
@@ -166,7 +167,7 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
 }
-/* line 141, ../sass/post.scss */
+/* line 142, ../sass/post.scss */
 .site #home .blog-title {
   text-align: center;
   padding: 2% 4%;
@@ -176,18 +177,18 @@
   font-weight: 400;
   border: 5px solid;
 }
-/* line 150, ../sass/post.scss */
+/* line 151, ../sass/post.scss */
 .site #home .single-post {
   padding: 7% 4%;
   border-bottom: 1px solid #eaeaea;
 }
-/* line 155, ../sass/post.scss */
+/* line 156, ../sass/post.scss */
 .site #home .single-post h2 {
   font-weight: 700;
   color: #555;
   font-size: 40px;
 }
-/* line 159, ../sass/post.scss */
+/* line 160, ../sass/post.scss */
 .site #home .single-post h2 a {
   color: #555;
   text-decoration: none;
@@ -197,11 +198,11 @@
   -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-/* line 163, ../sass/post.scss */
+/* line 164, ../sass/post.scss */
 .site #home .single-post h2 a:hover {
   color: #00bb70;
 }
-/* line 169, ../sass/post.scss */
+/* line 170, ../sass/post.scss */
 .site #home .single-post span {
   color: #aaa;
   font-family: Monaco, "Courier New", monospace;
@@ -209,7 +210,7 @@
   display: block;
   line-height: 30px;
 }
-/* line 176, ../sass/post.scss */
+/* line 177, ../sass/post.scss */
 .site #home .single-post p {
   margin: 0;
   font-size: 29px;
