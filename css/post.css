@@ -186,14 +186,15 @@
 .site #home .single-post {
   padding: 7% 4%;
   border-bottom: 1px solid #eaeaea;
+  margin: 5% 0;
 }
-/* line 161, ../sass/post.scss */
+/* line 162, ../sass/post.scss */
 .site #home .single-post h2 {
   font-weight: 700;
   color: #555;
   font-size: 40px;
 }
-/* line 165, ../sass/post.scss */
+/* line 166, ../sass/post.scss */
 .site #home .single-post h2 a {
   color: #555;
   text-decoration: none;
@@ -203,11 +204,11 @@
   -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-/* line 169, ../sass/post.scss */
+/* line 170, ../sass/post.scss */
 .site #home .single-post h2 a:hover {
   color: #00bb70;
 }
-/* line 175, ../sass/post.scss */
+/* line 176, ../sass/post.scss */
 .site #home .single-post span {
   color: #aaa;
   font-family: Monaco, "Courier New", monospace;
@@ -215,7 +216,7 @@
   display: block;
   line-height: 30px;
 }
-/* line 182, ../sass/post.scss */
+/* line 183, ../sass/post.scss */
 .site #home .single-post p {
   margin: 0;
   font-size: 20px;
