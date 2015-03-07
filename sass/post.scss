@@ -105,23 +105,23 @@ $light: #efefef;
 	width: 100%;
 	max-width: 900px;
 	margin: 5% auto;
-
+	text-align: left;
 	h3{
 		color: #4c4d57;
 		font-size: 100px;
 		letter-spacing: 2px;
 		font-weight: 900;
 		display: inline;
-		text-align: left;
 	}
 	hr{
-		width: 150px;
+		width: 20%;
+  		height: 18px;
+  		background: #4c4d57;
 	}
 	p{
 		font-size: 29px;
 		color: #4c4d57;
 		line-height: 60px;
-		text-align: left;
 	}
 }
 .site {
@@ -155,7 +155,7 @@ $light: #efefef;
 			h2{
 				font-weight: 700;
 		  		color: #555;
-		  		font-size: 35px;
+		  		font-size: 40px;
 		  		a{
 		  			color: #555;
 		  			text-decoration: none;
@@ -175,6 +175,9 @@ $light: #efefef;
 			}
 			p{
 				margin: 0;
+				font-size: 29px;
+				color: #4c4d57;
+				line-height: 60px;
 			}
 		}
 	}

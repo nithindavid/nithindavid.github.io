@@ -129,6 +129,7 @@
   width: 100%;
   max-width: 900px;
   margin: 5% auto;
+  text-align: left;
 }
 /* line 109, ../sass/post.scss */
 #aboutMe h3 {
@@ -137,18 +138,18 @@
   letter-spacing: 2px;
   font-weight: 900;
   display: inline;
-  text-align: left;
 }
-/* line 117, ../sass/post.scss */
+/* line 116, ../sass/post.scss */
 #aboutMe hr {
-  width: 150px;
+  width: 20%;
+  height: 18px;
+  background: #4c4d57;
 }
-/* line 120, ../sass/post.scss */
+/* line 121, ../sass/post.scss */
 #aboutMe p {
   font-size: 29px;
   color: #4c4d57;
   line-height: 60px;
-  text-align: left;
 }
 
 /* line 127, ../sass/post.scss */
@@ -184,7 +185,7 @@
 .site #home .single-post h2 {
   font-weight: 700;
   color: #555;
-  font-size: 35px;
+  font-size: 40px;
 }
 /* line 159, ../sass/post.scss */
 .site #home .single-post h2 a {
@@ -211,4 +212,7 @@
 /* line 176, ../sass/post.scss */
 .site #home .single-post p {
   margin: 0;
+  font-size: 29px;
+  color: #4c4d57;
+  line-height: 60px;
 }
