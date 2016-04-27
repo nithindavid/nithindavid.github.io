@@ -1,0 +1,22 @@
+---
+layout: front
+title: Nithin David Thomas
+---
+<div class="home">
+  <div class="fat-title">
+    <h3>Blog</h3>
+    <hr>
+  </div>
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+         <h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+
+        <span  class="post-meta">{{ post.date | date_to_string }}</span>   
+
+        <div class="post-excerpt">{{ post.excerpt | truncatewords:40 }}</div>
+      </li>
+    {% endfor %}
+  </ul>
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+</div>
