@@ -21,7 +21,7 @@
       <h3>Designs</h3>
       <hr>
     </div>
-    <ul class="grid-work">
+    <ul class="grid-work designs">
       <li><img src="https://lh3.google.com/u/0/d/1DB2dw3vRpnSzu4qqHqyiqOHzj7TKxI-V=w400-h300-p-k-nu-iv1"><a href="https://drive.google.com/open?id=1DB2dw3vRpnSzu4qqHqyiqOHzj7TKxI-V" target="_blank">Nafissa</a></li>
       <li><img src="https://lh3.google.com/u/0/d/1g2jJpVqnmiVs3nCdm-sW-hw9tYhx4A8K=w400-h300-p-k-nu-iv1"><a href="https://drive.google.com/open?id=1g2jJpVqnmiVs3nCdm-sW-hw9tYhx4A8K" target="_blank">ChatWoot</a></li>
       <li><img src="https://lh3.google.com/u/0/d/1U4BtpfO5c9w0AUcJjvbqwFkDpU_-tzO2=w400-h300-p-k-nu-iv1"><a href="https://drive.google.com/open?id=1U4BtpfO5c9w0AUcJjvbqwFkDpU_-tzO2" target="_blank">Letterati</a></li>
@@ -50,11 +50,16 @@
   </div>
   <script type="text/javascript">
 
-  var width = document.querySelector('.grid-work').offsetWidth
-  var items= document.querySelectorAll('.grid-work li')
-  for(i=0;i<items.length;i++){
-  items[i].style.width = items[i].style.height  = width/3+'px';
-  }
+    var width = document.querySelector('.grid-work').offsetWidth
+    var items= document.querySelectorAll('.grid-work li')
+    for(i=0;i<items.length;i++){
+      items[i].style.width = items[i].style.height  = width/3+'px';
+    }
+
+    var items= document.querySelectorAll('.grid-work.designs li')
+    for(i=0;i<items.length;i++){
+      items[i].style.height  = width/4+'px';
+    }
   </script>
 
   {% include footer.html %}

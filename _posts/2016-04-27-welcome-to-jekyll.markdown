@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Finally Nithin has a portfolio! Meh 😝"
+title:  "Finally my portfolio is up yey 🤘😝"
 date:   2016-04-27 12:40:29 +0530
 categories: update
 ---
