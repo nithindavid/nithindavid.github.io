@@ -233,7 +233,7 @@
                 text-decoration: none;
                 box-sizing: border-box;
                 font-weight: 700;
-                background: rgba(0, 0, 0, 0.5);
+                background: rgba(0, 0, 0, 0);
                 color: $color-white;
                 position: absolute;
                 @include transition(all, 0.2s, ease-in-out);
